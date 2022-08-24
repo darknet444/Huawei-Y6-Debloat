@@ -9,6 +9,6 @@ Step 3 Install git,curl,adb
       Fedora: sudo dnf install git curl android-tools
       Arch  : sudo pacman -S git curl android-tools
 
-Step 4 clone repo with : git clone https://github.com/darknet444/Huawei-y6-debloat.git
+Step 4 clone repo with : git clone https://github.com/darknet444/Huawei-Y6-Debloat.git
 
 step 5 run the script with ./Debloat.sh
