@@ -1,4 +1,4 @@
-This script while debloat huawei y6
+This script while debloat huawei y6.
 
 Step 1 go to settings-about phone and press 5 Times on Build number.
 
