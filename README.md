@@ -16,17 +16,10 @@ Arch
       
       sudo pacman -S git curl android-tools
 
-Step 4 clone repo with 
+Step 4 clone repo with and Make script executable with
 
      git clone https://github.com/darknet444/Huawei-Y6-Debloat.git
-
-Step 5 Change directorys
-
-     cd Huawei-Y6-Debloat
-
-Step 6 Make script executable with
-
-     chmod +x Debloat.sh
+     chmod +x ./Huawei-Y6-Debloat/Debloat.sh
 
 step 7 run the script with 
             
