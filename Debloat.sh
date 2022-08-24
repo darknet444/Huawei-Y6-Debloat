@@ -1,13 +1,9 @@
 #!/bin/bash
 
-#########################################################
-#		                  LIST DEVICE 			                #
-#########################################################
+#Devices
 adb devices 
 
-########################################################
-#                  UNINSTALL APPS		                   #
-########################################################
+# Uninstall apps
 adb shell pm uninstall --user 0 com.android.backupconfirm
 adb shell pm uninstall --user 0 com.android.calculator2
 adb shell pm uninstall --user 0 com.android.calendar
