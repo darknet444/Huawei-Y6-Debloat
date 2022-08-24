@@ -20,11 +20,14 @@ Step 4 clone repo with
 
      git clone https://github.com/darknet444/Huawei-Y6-Debloat.git
 
+Step 5 Change directorys
 
-Step 5 Make script executable with
+     cd Huawei-Y6-Debloat
 
-      chmod +x Debloat.sh
+Step 6 Make script executable with
 
-step 6 run the script with 
+     chmod +x Debloat.sh
+
+step 7 run the script with 
             
      ./Debloat.sh
