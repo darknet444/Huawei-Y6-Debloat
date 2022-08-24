@@ -23,4 +23,4 @@ Step 4 clone repo with and make the script executable with.
 
 step 5 run the script with. 
             
-     ./DHuawei-Y6-Debloat/Debloat.sh
+     ./Huawei-Y6-Debloat/Debloat.sh
