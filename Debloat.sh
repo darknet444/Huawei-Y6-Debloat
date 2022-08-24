@@ -66,7 +66,6 @@ adb shell pm uninstall --user 0 com.google.android.videos
 adb shell pm uninstall --user 0 com.google.android.youtube
 adb shell pm uninstall --user 0 com.hp.android.printservice
 adb shell pm uninstall --user 0 com.huawei.HwMultiScreenShot
-adb shell pm uninstall --user 0 com.huawei.KoBackup
 adb shell pm uninstall --user 0 com.huawei.android.FMRadio
 adb shell pm uninstall --user 0 com.huawei.android.FloatTasks
 adb shell pm uninstall --user 0 com.huawei.android.hwaps
