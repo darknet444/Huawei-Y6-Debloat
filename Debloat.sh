@@ -1,6 +1,14 @@
 #!/bin/bash
+echo " Disable animations "
+adb shell settings put global window_animation_scale 0.0 && adb shell settings put global transition_animation_scale 0.0 && adb shell settings put global animator_duration_scale 0.0
 
-# Uninstall apps
+echo " Clearing cache and data "
+for package in $(adb shell pm list packages -f | sed -e "s/.*=//" -e "s/\r//"); do
+    echo "Clearing cache for $package ..."
+    adb shell pm clear "${package}"
+done 
+
+echo " Uninstall apps "
 adb shell pm uninstall --user 0 com.android.backupconfirm
 adb shell pm uninstall --user 0 com.android.calculator2
 adb shell pm uninstall --user 0 com.android.calendar
@@ -98,7 +106,7 @@ adb shell pm uninstall --user 0 se.dirac.acs
 # Downloading fdroid 
 wget https://f-droid.org/F-Droid.apk
 
-# Installing fdroid
+echo " Installing F-Droid "
 adb install F-Droid.apk
 
 # Waiting whene apps are uninstalled
