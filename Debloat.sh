@@ -112,6 +112,12 @@ adb install F-Droid.apk
 # Waiting whene apps are uninstalled
 sleep 60; echo "reboot"
 
+echo " Clearing cache and data "
+for package in $(adb shell pm list packages -f | sed -e "s/.*=//" -e "s/\r//"); do
+    echo "Clearing cache for $package ..."
+    adb shell pm clear "${package}"
+done 
+
 # Reboot device 
 adb reboot 
 
