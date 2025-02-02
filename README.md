@@ -33,7 +33,9 @@ git clone https://github.com/darknet444/Huawei-Y6-Debloat.git
 chmod +x ./Huawei-Y6-Debloat/Debloat.sh
 ```
 ### Stap 5: Voer het Script uit
+```sh
 ./Huawei-Y6-Debloat/Debloat.sh
+```
 
 ## Opmerkingen
 Dit script is gratis te gebruiken en bedoeld om te helpen bij het beheren van je apparaat. Gebruik het op eigen risico.
