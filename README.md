@@ -28,6 +28,7 @@ Installeer de benodigde tools afhankelijk van je besturingssysteem:
 
 ### Stap 4: Clone de Repository en Maak het Script Uitvoerbaar
 Clone de repository en maak het script uitvoerbaar met de volgende commando's:
+```sh
 git clone https://github.com/darknet444/Huawei-Y6-Debloat.git
 chmod +x ./Huawei-Y6-Debloat/Debloat.sh
 
